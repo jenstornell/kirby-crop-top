@@ -14,7 +14,7 @@ I will not even add installation instructions for it. If you can't install it, w
 
 ```html
 <?php
-$thumb_url = $item->cropTop($item->slug() . '.png', array('width' => 380, 'height' => 190));
+$thumb_url = $item->cropTop('image.png', array('width' => 380, 'height' => 190));
 ?>
 <img src="<?php echo $thumb_url; ?>">
 ```
