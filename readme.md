@@ -21,4 +21,4 @@ $thumb_url = $page->cropTop('image.png', array('width' => 380, 'height' => 190))
 
 It takes a filename (not an image object) and an array with width and height. The output is a thumbnail url. It saves it in `thumbs/crop-top/**/*`.
 
-***Be aware! This object does not work exactly like the native thumb object has. It only works in this specific case.***
+***Be aware! This object does not work exactly like the native thumb object. It only works in this specific case.***
